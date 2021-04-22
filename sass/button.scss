@@ -1,0 +1,29 @@
+.btn {
+  padding: 1.5rem 10rem;
+  text-transform: uppercase;
+  // font-family: $small-header-font;
+  font-weight: bold;
+  border-radius: 0.8rem;
+  border: 1px solid #3786bf;
+  font-size: 1.4rem;
+
+  &-primary {
+    background-color: $white-color;
+    color: $black-grayish-color;
+  }
+
+  &-secondary {
+    background-color: #0e3d5e;
+    padding:1rem 4rem;
+    color: $white-color;
+  }
+
+  &:hover {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: $white-color;
+    border-color: #3786bf;
+    background-color: #3786bf;
+    transform: translateY(-5px);
+  }
+}

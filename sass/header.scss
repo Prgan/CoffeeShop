@@ -1,0 +1,41 @@
+.header {
+    width:100%;
+    position: relative;
+    height: 70vh;
+    padding: 0 4rem;
+    max-width:150rem;
+    margin:0 auto;
+    margin-top:5rem;
+
+    &__main-box {
+        @include container-flex-center;
+        margin-top:10rem;
+
+    }
+    &__left-flex {
+        flex: 1;
+    }
+
+    &__right-flex {
+        flex: 1;
+    }
+
+    &__main--image {
+        background-size: cover;
+        width:100%;
+        float:right;
+        height:60vh;
+        z-index:100;
+    }
+
+
+    &__main-caption {
+        text-align: center;
+    }
+
+    &__main-text {
+        font-size:8rem;
+        color:$secondary-color;
+        font-family: $primary-heading-font;
+    }
+}

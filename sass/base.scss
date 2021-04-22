@@ -1,0 +1,40 @@
+*, 
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-family: "Arial", "Be Vietnam";
+    // line-height: 1.6;
+    // color: neki malo manjsi odtenek črne
+}
+
+// Colors
+$black-color: #000;
+$black-grayish-color: rgba(20, 19, 19, 0.755);
+$light-gray: rgb(214, 200, 200);
+$white-color: #FFFFFF;
+$primary-color: #011627;
+$secondary-color: #FF9F1C;
+$tertiary-color: #007EA7;
+$quaternary-color:#00A8E8;
+$penta-color: #E71D36;
+
+// Fonts
+$primary-font: "Zilla Slab";
+$primary-heading-font: "Acme";
+
+// Resolutions
+
+$mobile: 37.5; // 600px
+$tablet: 60em; // 900px
+$desktop: 75em; // 1200px
+
+

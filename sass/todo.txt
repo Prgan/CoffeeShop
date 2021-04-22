@@ -1,0 +1,11 @@
+Fonts family,
+Slider (js),
+buttons ( primary, secondary),
+COLORS,
+Font size,
+Postavitev
+Meni,
+Manjse kartice, 
+Hangouts mogoce po about us,
+sidemenu.
+animation on home page.

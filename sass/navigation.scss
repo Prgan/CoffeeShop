@@ -1,0 +1,59 @@
+.navigation {
+  height: 8rem;
+  background-color: $white-color;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+
+  &__logo-box {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  &__logo {
+    height: 10rem;
+    width: 10rem;
+    background-size: cover;
+    margin-left: 8rem;
+  }
+
+  &__right-box {
+    // fix
+    list-style: none;
+  }
+
+  &__list {
+    list-style: none;
+    margin-right: 40px;
+  }
+
+  &__item {
+    display: inline-block;
+    padding: 2rem;
+  }
+
+  &__link {
+    font-family: $primary-heading-font;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0 18px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    text-decoration: none;
+    color: $black-grayish-color;
+
+    &:hover {
+      color: $secondary-color;
+      transition: all 0.2s ease;
+    }
+  }
+}

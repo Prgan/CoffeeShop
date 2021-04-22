@@ -1,0 +1,57 @@
+.card {
+    position:relative;
+    border: 1px solid rgb(177, 170, 170);
+    border-radius: 0.5rem;
+    height: 35rem;
+    flex: 1;
+    margin-top:5rem;
+    max-width: 34rem;
+    min-width: 26rem;
+    background-image:linear-gradient(
+        to right bottom, 
+         rgba(rgba(255, 255, 255, 0.933), 1),
+         rgba(rgb(255, 242, 242), 0.6)), 
+    url('../img/background-with-coffee-beans_1205-268.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    &:hover {
+        transform: translateY(-1rem) scale(1.02);
+        transition: all 0.4s;
+    }
+    
+
+    &:not(:last-child) {
+        margin-right:4rem;
+    }
+
+    &__image {
+        padding:2rem;
+    }
+
+    &__heading-box {
+        padding: 0 2rem;
+        padding-bottom: 2rem;
+
+        &--heading {
+            color: #FF9F1C;
+            font-size: 3rem;
+            font-family: $primary-heading-font;
+        }
+        &::after {
+            content: '________________________';
+        }
+    }
+
+    &__text-box {
+        padding: 0 2rem;
+
+        &--text {
+            font-size: 2rem;
+            font-family: $primary-font;
+            font-weight: 500;
+        }
+    }
+}
